@@ -1,0 +1,530 @@
+
+/*********************MAIN CONTAINER STYLES*************************
+*******************************************************************/
+
+body{
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, white 80%, transparent), url("https://travisrunyard.com/wp-content/uploads/2014/07/zen-painting-56-fresh-hd-wallpaper.jpg")repeat center fixed;
+    background-size: cover;
+    }
+
+
+
+header,
+.content1,
+.content2,
+.content3,
+.content4,
+footer{
+    font-family: 'Julius Sans One', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.site-footer{
+    text-align: center;
+    color:aliceblue;
+    background-color: black;    
+    
+}
+
+/***********************SITE CONTENT STYLES*****************************
+***********************************************************************/
+
+.caption h1,
+.caption h2{
+    
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    
+    }
+.caption h1{
+    padding-top: 10px
+    
+}
+
+.caption h2{
+    color: floralwhite;
+    padding-top: 20px;
+}
+
+.border{
+  border-bottom: 1px solid;
+  margin: 0 auto;
+  max-width: 40%;
+  padding-top: 13px;
+}
+
+.content1{
+    margin: 0 auto;
+    font-size: .9rem;
+    line-height: 1.7;
+}
+
+.content2{
+    margin-top: 20px;
+}
+
+.content3{
+    
+    margin-top: 50px;
+}
+
+blockquote.quote{
+    height: 100%;
+    font-size: 1.2rem;
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    
+    
+}
+
+.bib,.link,.vid-background{
+    
+    background: linear-gradient( to bottom, #d0c2c2 80%, transparent);
+    margin-top: 10px;
+    padding: .5em; 
+    
+    
+    
+}
+
+
+
+.bio{
+    display: inline-block;
+    line-height: 2;
+    
+    
+}
+
+.bib {
+        
+       
+       line-height: 2; 
+        
+        
+    }
+.bib ul{
+    list-style: disc;
+}
+
+
+.vid-background{
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+    
+    .vid{
+        
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 97%;
+        
+    }
+
+.vid iframe, .vid object, .vid-embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+    
+    
+.vid-background h4{
+    text-align: center;
+}
+
+
+
+
+
+/******************MAIN IMAGE STYLES*********************************
+********************************************************************/
+
+.image1,
+.image2{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.overlay{
+    
+    display: inline-block;
+    background: linear-gradient(to right, white 50%, transparent);
+    background-position: right;
+    height: 60px;
+    width: 100%;
+    margin-top: 100px;
+    
+    
+}
+
+
+
+
+.image1{
+    display: block;
+    background-image: url('http://www.thinking-minds.net/wp-content/uploads/2016/07/alan-watts.jpg');
+    background-position: top;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+
+.image2{
+    display: inline-block;
+    float: left;
+    background-image:url("https://pbs.twimg.com/profile_images/431104967299321856/z0auawQq.jpeg");
+    background-position:;
+    width: 100%;
+    height: 200px;
+    opacity: 0;
+    
+    
+}
+
+.image3{
+    display: inline-block;
+    float: right;
+    background:radial-gradient(circle closest-side, transparent, white), url("http://www.prem-rawat-bio.org/gurus/img/drugs/awatts.jpg")center no-repeat;
+    width: 300px;
+    height: 266px;
+    
+    }
+
+.image4{
+    display: inline-block;
+    float: left;
+    background:radial-gradient(circle closest-side, transparent, white), url("http://www.alanwattspodcast.com/images/alanwatts_01_s.jpg")center no-repeat;
+    border-radius: 50%;
+    height: 300px;
+    width: 260px;
+    
+}
+
+
+
+/***********************************************************************
+***********************MEDIA QUERIES***********************************/
+
+
+
+
+@media screen and (min-width: 42em) {
+    
+   
+    .caption h1,
+    .caption h2{
+        font-size: 40px;
+    }
+    
+    .caption h1{
+        
+       margin-top:  17px;
+        
+    }
+    
+    .border{
+        margin-top: 13px;
+    }
+    
+    .overlay{
+        
+        height: 100px;
+    }
+    
+    .image1{
+        
+        height: 400px;
+    }
+        
+        
+        
+    }
+
+    .image2{
+    width: 70%;   
+    height: 350px;
+    background-position: -90px -50px    
+    
+    
+       
+     
+}
+    
+   
+    
+    
+    .content1{
+        
+        margin-top: 20px;
+        font-size: 1.0rem;
+        padding: 0 30px 0 0;
+    }
+    
+    .content2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .content3{
+        
+        
+    }
+    
+    
+    blockquote.quote{
+        width:  180px;
+        margin: 0;
+}
+    
+    
+    .bio{
+        
+        
+        font-size: 20px;
+        width: 100%;
+}
+    
+    .bib,
+    .vid-background{
+        float: left;
+        
+    }
+    
+    .link{
+        float: right;
+        
+    }
+    
+    .bib,
+    .link,
+    .vid-background{
+        
+        width: 28%;
+        height: 398.53px;
+        
+        
+    }
+    
+    .vid-background
+{
+        margin-left: 6.3%;
+        
+    }
+
+    .link{
+        
+        margin-left: 5.8%;
+}
+    
+    
+    .vid{
+        
+        margin-top: 50px;
+        
+        
+        width: 100%;
+        
+    }
+       
+    
+    
+    
+}
+
+@media screen and ( min-width: 1024px ) and ( max-width: 1440px ) {
+    
+    .caption h1,
+    .caption h2{
+        font-size: 75px;
+    }
+    
+    .border{
+        padding: 0;
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        margin-top: 200px;
+        height: 100px;
+    
+        
+     }
+    
+    .image2{
+      width: 60%;     
+       height: 500px;
+       background-position: 50px;
+       
+        
+    }
+    
+    .image3,
+    .image4{
+       
+        
+        
+    }
+    
+    .content1{
+        font-size: 1.5rem;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        
+    }
+    
+    
+        
+    }
+    
+
+    
+    .content2{
+        height: 100%;
+    }
+    
+    .bio{
+        
+       width: 100%;
+       
+        
+    }
+    
+
+    
+}
+
+
+@media only screen and ( min-width: 1440px ) and ( max-width: 2560px ) {
+    
+    
+    header{
+        
+        height: 500px;
+        
+    }
+    
+    .caption h1,
+    .caption h2{
+        color: whitesmoke;
+        font-size: 100px;
+        
+    }
+    
+    .caption h1{
+        margin-top: -100px;
+        
+    }
+    
+    .caption h2{
+        margin-top: 20px;
+        
+    }
+    
+    .border{
+        padding-top: 40px;
+        
+    }
+    
+   
+    
+    
+    
+   
+    }
+    
+    .bio{
+       
+        
+    }
+    
+}
+
+@media only screen and ( min-width: 2560px ){
+    
+    .caption h1,
+    .caption h2{
+        
+        font-size: 6rem;
+    }
+
+    .caption h1 {
+        
+        padding-bottom: -100px;
+    }
+    
+    .caption h2 {
+        padding-top: 50px;
+        
+    }
+    
+    .border{
+        
+        padding-top: 40px;
+        
+    }
+    
+    .overlay{
+        height: 200px;
+        margin-top: 300px;
+        
+    }
+    
+    .image1{
+        
+        height: 900px;
+        
+        
+    }
+    
+    .image2{
+        width: 50%;
+        height: 700px;
+        background-position: 400px;
+        
+    }
+    
+    }
+    
+    .content1{
+        
+        
+        
+    }
+    
+    
+        
+    
+    
+   
+    
+}
